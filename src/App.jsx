@@ -154,17 +154,17 @@ export default function App() {
                                             className="h-10 w-auto object-contain rounded-lg"
                                         />
                                         <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-semibold rounded-full border border-indigo-500/30">
-                      CEO & Founder
+                      CEO
                     </span>
                                     </div>
                                     <h3 className="text-2xl font-bold mb-3 text-white">AstralyaStudios</h3>
                                     <p className="text-slate-300 text-sm mb-4 leading-relaxed">
-                                        AstralyaStudios è una realtà dedicata allo sviluppo e alla creazione di contenuti digitali, soluzioni software e progetti per la community.
+                                        AstralyaStudios è una realtà dedicata allo sviluppo di siti web, bot discord e molto altro, specializzata anche nella realizzazione di video e grafiche.
                                     </p>
                                     <div className="border-t border-slate-800/80 pt-4 mt-4">
                                         <h4 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Cosa faccio all'interno:</h4>
                                         <ul className="text-slate-400 text-sm space-y-2 list-disc list-inside">
-                                            <li>Supervisione di tutte le fasi produttive e coordinamento dei team.</li>
+                                            <li>Supervisiono e coordino il team.</li>
                                             <li>Gestione delle strategie di crescita e organizzazione delle risorse.</li>
                                             <li>Sviluppo di servizi e infrastrutture chiave dello studio.</li>
                                         </ul>
@@ -185,13 +185,13 @@ export default function App() {
                                     </div>
                                     <h3 className="text-2xl font-bold mb-3 text-white">SulfurMC</h3>
                                     <p className="text-slate-300 text-sm mb-4 leading-relaxed">
-                                        SulfurMC è un server di Minecraft focalizzato nell'offrire un'esperienza di gioco strutturata e ottimizzata per gli utenti.
+                                        SulfurMC è un server di Minecraft focalizzato nell'offrire un'esperienza di gioco innovativa agli utenti.
                                     </p>
                                     <div className="border-t border-slate-800/80 pt-4 mt-4">
                                         <h4 className="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-2">Cosa faccio all'interno:</h4>
                                         <ul className="text-slate-400 text-sm space-y-2 list-disc list-inside">
                                             <li>Configurazione, ottimizzazione e integrazione di plugin di gioco.</li>
-                                            <li>Gestione e coordinamento dello staff del server (HighStaff).</li>
+                                            <li>Gestione del server.</li>
                                             <li>Risoluzione di problemi tecnici e miglioramento delle meccaniche di gioco.</li>
                                         </ul>
                                     </div>
@@ -213,15 +213,15 @@ export default function App() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 
                     <GlowCard className="p-6">
-                        <div className="text-3xl mb-3">💻</div>
-                        <h3 className="text-xl font-bold mb-2 text-indigo-400">Sviluppatore Frontend</h3>
+                        <div className="text-3xl mb-3">🎬</div>
+                        <h3 className="text-xl font-bold mb-2 text-indigo-400">Video Editor</h3>
                         <p className="text-slate-300 text-sm leading-relaxed mb-3">
-                            Creazione di interfacce web veloci e reattive.
+                            Montaggio e produzione di contenuti multimediali d'impatto.
                         </p>
                         <ul className="text-slate-400 text-xs space-y-1.5 list-disc list-inside">
-                            <li>Linguaggi & Framework: HTML5, CSS3, JavaScript, React.</li>
-                            <li>Styling moderno con Tailwind CSS.</li>
-                            <li>Integrazione e configurazione di plugin per server (MC).</li>
+                            <li>Montaggio dinamico, transizioni e cura del ritmo visivo.</li>
+                            <li>Editing audio e sync musicale.</li>
+                            <li>Creazione di trailer, teaser e video promozionali.</li>
                         </ul>
                     </GlowCard>
 
@@ -235,19 +235,6 @@ export default function App() {
                             <li>Creazione di prompt strutturati per generazione codice e testi.</li>
                             <li>Automazione dei task ripetitivi e accelerazione della produzione.</li>
                             <li>Integrazione di modelli AI nei workflow aziendali e creativi.</li>
-                        </ul>
-                    </GlowCard>
-
-                    <GlowCard className="p-6">
-                        <div className="text-3xl mb-3">🎬</div>
-                        <h3 className="text-xl font-bold mb-2 text-indigo-400">Video Editor</h3>
-                        <p className="text-slate-300 text-sm leading-relaxed mb-3">
-                            Montaggio e produzione di contenuti multimediali d'impatto.
-                        </p>
-                        <ul className="text-slate-400 text-xs space-y-1.5 list-disc list-inside">
-                            <li>Montaggio dinamico, transizioni e cura del ritmo visivo.</li>
-                            <li>Editing audio e sync musicale.</li>
-                            <li>Creazione di trailer, teaser e video promozionali.</li>
                         </ul>
                     </GlowCard>
 
