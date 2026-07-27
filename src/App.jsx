@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+const AstralyaStudioslogo = "/logo.png";
+
 // Componente Card riutilizzabile con effetto riflesso integrato
 function GlowCard({ children, className = "", borderGlowColor = "rgba(99, 102, 241, 0.3)" }) {
     const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
@@ -58,7 +60,7 @@ export default function App() {
             <nav className="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md z-50 border-b border-slate-800">
                 <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
           <span className="text-xl font-bold tracking-wider text-indigo-400">
-            LA_MINACCIA
+            la_minaccia
           </span>
 
                     {/* Desktop Nav */}
@@ -104,7 +106,7 @@ export default function App() {
                             Ciao, sono <span className="text-indigo-400">la_minaccia</span>
                         </h1>
                         <p className="text-slate-400 text-base md:text-lg mb-6 leading-relaxed">
-                            CEO di <strong className="text-indigo-300">AstralyaStudios</strong>, HighStaff & Pluginner su <strong className="text-amber-400">SulfurMC</strong>. Frontend Developer, Video Editor, Project Manager ed esperto di AI Prompting.
+                            CEO di <strong className="text-indigo-300">AstralyaStudios</strong>, HighStaff & Pluginner su <strong className="text-amber-400">SulfurMC</strong>. Video Editor, Project Manager ed esperto di AI Prompting.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                             <a href="#experiencies" className="px-6 py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-medium rounded-lg transition-all shadow-lg shadow-indigo-600/20 text-center">
@@ -135,8 +137,8 @@ export default function App() {
             <section id="experiencies" className="py-20 bg-slate-900/40 border-y border-slate-800">
                 <div className="max-w-6xl mx-auto px-6">
                     <div className="text-center mb-16">
-                        <h2 className="text-3xl font-bold mb-3">Esperienze & Leadership</h2>
-                        <p className="text-slate-400">I progetti principali che dirigo e nei quali opero quotidianamente.</p>
+                        <h2 className="text-3xl font-bold mb-3">Esperienzep</h2>
+                        <p className="text-slate-400">I progetti principali nei quali opero quotidianamente.</p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -146,7 +148,11 @@ export default function App() {
                             <div className="flex flex-col justify-between h-full">
                                 <div>
                                     <div className="flex justify-between items-start mb-4">
-                                        <span className="text-3xl">🚀</span>
+                                        <img
+                                            src={AstralyaStudioslogo}
+                                            alt="Logo AstralyaStudios"
+                                            className="h-10 w-auto object-contain rounded-lg"
+                                        />
                                         <span className="px-3 py-1 bg-indigo-500/20 text-indigo-300 text-xs font-semibold rounded-full border border-indigo-500/30">
                       CEO & Founder
                     </span>
