@@ -18,4 +18,5 @@ If you are developing a production application, we recommend using TypeScript wi
 
 CHECKLIST
 - aggiungere che sono helper sul forum di mc-italia
-- rendere leggibile il sito da telefonk
+- rendere leggibile il sito da telefono
+- aggiungere che sto imparando c
